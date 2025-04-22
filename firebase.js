@@ -5,14 +5,13 @@ import { getAuth } from 'firebase/auth';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDIP1MuPe4g7pHtKxdzSGoYuJi1mQ11qT0",
-    authDomain: "todoapp-f2f9e.firebaseapp.com",
-    projectId: "todoapp-f2f9e",
-    storageBucket: "todoapp-f2f9e.firebasestorage.app",
-    messagingSenderId: "377757169702",
-    appId: "1:377757169702:web:2b5647f0619a8731624ee7",
-    measurementId: "G-EPMN12HNVP"
-  };
+  apiKey: 'YOUR_API_KEY',
+  authDomain: 'YOUR_AUTH_DOMAIN',
+  projectId: 'YOUR_PROJECT_ID',
+  storageBucket: 'YOUR_STORAGE_BUCKET',
+  messagingSenderId: 'YOUR_MSG_ID',
+  appId: 'YOUR_APP_ID',
+};
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
